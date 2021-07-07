@@ -17,6 +17,8 @@
 	  <arg name="map_file" default="$(arg map_file)" />
   </include>
 
+  <include file="$(find rrt_exploration_tutorials)/launch/includes/map_merge.launch"/>
+
 
   <!-- rviz -->
     <node pkg="rviz" type="rviz" name="rviz" required="true"
